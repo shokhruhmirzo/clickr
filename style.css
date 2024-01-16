@@ -246,6 +246,7 @@ hr {
 .packages-div {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .packages-blue {
@@ -422,6 +423,16 @@ hr {
     display: block;
 }
 
+.foot-btn{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.foot-btn:hover{
+    background: #FF6A00;
+    color: white;
+    box-shadow: 0 0 10px 5px #FF6A00;
+}
+
 /* services */
 
 .services {
@@ -511,5 +522,9 @@ hr {
     line-height: 100%;
     letter-spacing: 0.54px;
     margin-top: 25px;
-    margin-left: -20px;
+    margin-left: -20px;  
+}
+
+.explore{
+    margin-left: 40px;
 }
